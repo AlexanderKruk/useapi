@@ -12,10 +12,10 @@ class App extends Component {
     }
   }
 
-componentDidMount(){
-  fetch('https://swapi.co/api/people')
-  .then(response => response.json())
-  .then(data => {this.setState({data: data.results})})
+async componentDidMount(){
+  const resp = await fetch('https://swapi.co/api/people');
+  const data = await resp.json();
+  this.setState({data: data.results});
 } 
 
 
