@@ -2,7 +2,7 @@
   "name": "useapi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexanderkruk.github.io/useapi/",
+  "homepage": "https://alexanderkruk.github.io/useapi",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
