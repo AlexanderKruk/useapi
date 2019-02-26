@@ -23,18 +23,18 @@ async componentDidMount(){
     const data = await resp.json();
     return data.results;
   }));
-  // await fetch('https://swapi.co/api/people');
-  // const data = await resp.json();
   this.setState({people: people, planets: planets, starships: starships});
 } 
 
 
   render() {
-    const { data } = this.state;
+    const { people, planets, starships } = this.state;
     return (
       <div>
       <InfoList 
-        data={data}
+        people = { people }
+        planets = { planets }
+        starships = { starships }
       />
       </div>
     );
