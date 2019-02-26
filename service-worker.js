@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AlexanderKruk/useapi.git/precache-manifest.29e626895f59922244e8bcedbce5f68f.js"
+  "/useapi/precache-manifest.bc9b248486e679c7b6cd341222b84012.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/AlexanderKruk/useapi.git/index.html", {
+workbox.routing.registerNavigationRoute("/useapi/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
